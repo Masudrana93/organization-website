@@ -81,20 +81,44 @@ color: #000;
 
 /* ---Nav-bar CSS End--- */
 
-/* ---Footer Part CSS Start--- */
+/* -------Footer Part CSS Start------- */
 
+.footer-bg-color{
+    background-color: #2a3240;
+}
+
+.footer-logo{
+    display: flex;
+    align-items: center;
+}
+
+/* social media link start */
 .all-socail-logo {
     display: flex;
 }
 
 .social-logo a {
     padding: 10px;
-    background-color: #FFD563;
+    background-color: #bbf002;
     color: blue;
     margin-left: 8px;
     border-radius: 3px;
 
 }
+
+.social-logo{
+    transition: all 0.4s;
+    padding: 4px;
+}
+
+.all-socail-logo .social-logo:hover{
+ transform: scale(1.5);
+ 
+}
+
+/* Social media link end */
+
+/* Quick links start */
 
 .quick-link ul li {
     list-style: none;
@@ -122,6 +146,10 @@ color: #000;
     transition: all 0.5s ease;
 } */
 
+/* Quick links end */
+
+/* Contact Info start  */
+
 .contact-icon a {
     color: white;
     margin-right: 10px;
@@ -129,6 +157,8 @@ color: #000;
 .contact-address a {
     color: white;
 }
+
+/* Contact Info end */
 
 .box-icon {
     justify-content: center;
@@ -145,16 +175,9 @@ color: #000;
     color: black !important;
     
 }
-.social-logo{
-    transition: all 0.3s;
-}
 
-.all-socail-logo .social-logo:hover{
- transform: scale(1.5);
- padding: 5px;
-}
 
-/* ---Footer Part CSS End--- */
+/* -------Footer Part CSS End------- */
 
 /* ---Welcome Part CSS Start--- */
 
