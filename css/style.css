@@ -11,27 +11,18 @@
 .navbar{
     background-color: #fff;
     height: 90px;
-    
     border-radius: 0px 0px 30px 30px;
     padding: 0.5rem;
-}
-
-/* logo */
-.navbar-brand{
-    font-weight: 700;
-    color: #009970;
-    font-size: 24px;
-    transition: 0.3s color;
-
 }
 
 /* login button */
 .login-button{
     background-color: #249db6;
     color: #fff;
-    font-size: 14px;
+    font-size: 16px;
+    font-weight: 700;
     padding: 8px 20px;
-    border-radius: 50px;
+    /* border-radius: 50px; */
     text-decoration: none;
     transition: 0.3s background-color;
 }
@@ -39,24 +30,15 @@
     background-color:  #365fa0;;
 }
 
-/* Navbar Button */
-.navbar-toggler{
-    border: none;
-    font-size: 1.25rem;
-}
-.navbar-toggler:focus, .btn-close:focus {
-    box-shadow: none;
-    outline: none;
-}
-
 /* Navbar Menu */
 .nav-link{
-    color: #666777;
-    font-weight: 600;
+    color: #365fa0;
+    font-weight: 700;
+    font-size: 18px !important;
     position: relative;
 }
 .nav-link:hover, .nav-link.active{
-color: #000;
+color: #249db6;
 }
 
 @media (min-width:991px){
@@ -90,6 +72,13 @@ color: #000;
 .footer-logo{
     display: flex;
     align-items: center;
+}
+.footer-border-right{
+    border-right: 2px solid #249db6;
+}
+.footer-heading-font-size{
+    font-size: 18px !important;
+    font-weight: 700 !important;
 }
 
 /* social media link start */
@@ -127,28 +116,21 @@ color: #000;
 
 .quick-link ul li a {
     text-decoration: none;
-    
-}
-.contact-info {
-    display: flex;
-}
-
-.footer-border-right{
-    border-right: 2px solid #bbf002;
-}
-
-.quick-link ul li a {
-    text-decoration: none;
     color: white;
 }
-/* .quick-link ul li a:hover {
-    color: #FFD563;
+.quick-link ul li a:hover {
+    color: #249db6;
     transition: all 0.5s ease;
-} */
+}
 
 /* Quick links end */
 
 /* Contact Info start  */
+
+.contact-info {
+    display: flex;
+
+}
 
 .contact-icon a {
     color: white;
@@ -160,22 +142,6 @@ color: #000;
 
 /* Contact Info end */
 
-.box-icon {
-    justify-content: center;
-    display: flex;
-    font-size: 40px;
-}
-.box-title {
-    justify-content: center;
-    display: flex;
-}
-.icon-parts:hover {
-    background-color: #FFD563 !important;
-    transition: all 0.5s ease !important;
-    color: black !important;
-    
-}
-
 
 /* -------Footer Part CSS End------- */
 
@@ -183,11 +149,11 @@ color: #000;
 
 .background-pic{
     
-    background-image: url(../images/Supreme-court-bd.jpg);
+    background-image: url(../images/bannerhomeuia.jpg);
     
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 0px -400px;
+    background-position: 0px -50px;
     margin-top: 90px;
 }
 
