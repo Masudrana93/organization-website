@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Merriweather", serif;
+}
+
+/* ---Nav-bar CSS Star--- */
+
+/* Navbar */
+.navbar{
+    background-color: #fff;
+    height: 90px;
+    
+    border-radius: 0px 0px 30px 30px;
+    padding: 0.5rem;
+}
+
+/* logo */
+.navbar-brand{
+    font-weight: 700;
+    color: #009970;
+    font-size: 24px;
+    transition: 0.3s color;
+
+}
+
+/* login button */
+.login-button{
+    background-color: #249db6;
+    color: #fff;
+    font-size: 14px;
+    padding: 8px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: 0.3s background-color;
+}
+.login-button:hover{
+    background-color:  #365fa0;;
+}
+
+/* Navbar Button */
+.navbar-toggler{
+    border: none;
+    font-size: 1.25rem;
+}
+.navbar-toggler:focus, .btn-close:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+/* Navbar Menu */
+.nav-link{
+    color: #666777;
+    font-weight: 600;
+    position: relative;
+}
+.nav-link:hover, .nav-link.active{
+color: #000;
+}
+
+@media (min-width:991px){
+.nav-link::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width:0;
+    height: 2px;
+    background-color: #009970;
+    visibility: hidden;
+    transition: 0.3s ease-in-out;
+
+}
+.nav-link:hover::before, .nav-link.active::before {
+    width: 100%;
+    visibility: visible;
+}
+} 
+
+/* ---Nav-bar CSS End--- */
+
+/* ---Footer Part CSS Start--- */
+
+.all-socail-logo {
+    display: flex;
+}
+
+.social-logo a {
+    padding: 10px;
+    background-color: #FFD563;
+    color: blue;
+    margin-left: 8px;
+    border-radius: 3px;
+
+}
+
+.quick-link ul li {
+    list-style: none;
+    padding: 3px;
+}
+
+.quick-link ul li a {
+    text-decoration: none;
+    
+}
+.contact-info {
+    display: flex;
+}
+
+.footer-border-right{
+    border-right: 2px solid #bbf002;
+}
+
+.quick-link ul li a {
+    text-decoration: none;
+    color: white;
+}
+/* .quick-link ul li a:hover {
+    color: #FFD563;
+    transition: all 0.5s ease;
+} */
+
+.contact-icon a {
+    color: white;
+    margin-right: 10px;
+}
+.contact-address a {
+    color: white;
+}
+
+.box-icon {
+    justify-content: center;
+    display: flex;
+    font-size: 40px;
+}
+.box-title {
+    justify-content: center;
+    display: flex;
+}
+.icon-parts:hover {
+    background-color: #FFD563 !important;
+    transition: all 0.5s ease !important;
+    color: black !important;
+    
+}
+.social-logo{
+    transition: all 0.3s;
+}
+
+.all-socail-logo .social-logo:hover{
+ transform: scale(1.5);
+ padding: 5px;
+}
+
+/* ---Footer Part CSS End--- */
+
+/* ---Welcome Part CSS Start--- */
+
+.background-pic{
+    
+    background-image: url(../images/Supreme-court-bd.jpg);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px -400px;
+    margin-top: 90px;
+}
+
+.welcome-title{
+    font-weight: 700;
+    color: #fff;
+    font-size: 40px;
+}
+
+/* ---Welcome Part CSS End--- */
