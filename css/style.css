@@ -189,6 +189,7 @@ a.nav-link.mx-lg-2.dropdown-toggle.show {
     background-position: center center;
     margin-top: 90px;
     height: 455px;
+    position: relative;
 }
 
 .welcome-title{
@@ -202,33 +203,12 @@ a.nav-link.mx-lg-2.dropdown-toggle.show {
     background-color: rgba(0, 0, 0, 0.3);
 }
 
-/* .all-welcome-logo {
-    display: flex;
+
+.wc-logo-position{
+   
+    position: absolute;
+    top: 470px;
 }
-
-.wc-logo a {
-    padding: 10px;
-    background-color: #bbf002;
-    color: blue;
-    margin-left: 8px;
-    border-radius: 3px;
-    font-size: 50px;
-
-}
-
-.wc-logo{
-    transition: all 0.4s;
-    padding: 4px;
-    width: 200px;
-    height: 200px;
-    background-color: #fff;
-    border-radius: 50 ;
-}
-
-.all-socail-logo .wc-logo:hover{
- transform: scale(1.5);
- 
-} */
 
 .wc-logo-font{
     font-size: 33px;
@@ -251,10 +231,22 @@ ul.wc-logo-link li a {
 ul.wc-logo-link li .wc-logo-bg {
     width: 150px;
     height: 150px;
-    background-color: #bbf002;
+    background-color: #fff;
     border-radius: 50%;
     display: inline-block;
-
+    transition: all 0.3s ease-in-out;
+}
+ul.wc-logo-link li .wc-logo-bg:hover{
+    background-color: #249db6;
+   
+}
+ul.wc-logo-link li .wc-logo-bg:hover span{
+    color: #fff;
+   
+}
+ul.wc-logo-link li .wc-logo-bg:hover .wc-icons{
+    color: #fff;
+   
 }
 ul.wc-logo-link li a span {
     font-size: 15px;
