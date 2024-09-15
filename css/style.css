@@ -40,7 +40,12 @@
 .nav-link:hover, .nav-link.active{
 color: #249db6;
 }
-
+a.nav-link.mx-lg-2.active {
+    color:#249db6 ;
+}
+a.nav-link.mx-lg-2.active:hover {
+    color: #365fa0 ;
+}
 @media (min-width:991px){
 .nav-link::before{
     content: "";
@@ -55,7 +60,7 @@ color: #249db6;
     transition: 0.3s ease-in-out;
 
 }
-.nav-link:hover::before, .nav-link.active::before {
+.nav-link:hover::before {
     width: 100%;
     visibility: visible;
 }
@@ -117,10 +122,12 @@ color: #249db6;
 .quick-link ul li a {
     text-decoration: none;
     color: white;
+    font-size: 15px;
+    transition: all 0.5s ease;
 }
 .quick-link ul li a:hover {
     color: #249db6;
-    transition: all 0.5s ease;
+    
 }
 
 /* Quick links end */
@@ -134,7 +141,13 @@ color: #249db6;
 
 .contact-icon a {
     color: white;
+    font-size: 15px;
     margin-right: 10px;
+    transition: all 0.5s ease;
+}
+.contact-icon a:hover {
+    color:#249db6;
+    
 }
 .contact-address a {
     color: white;
@@ -142,6 +155,13 @@ color: #249db6;
 
 /* Contact Info end */
 
+/* ---Footer lower title start --- */
+
+.footer-lower-title{
+  font-size:13px ;
+}
+
+/* Footer lower title end */
 
 /* -------Footer Part CSS End------- */
 
