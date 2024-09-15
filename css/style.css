@@ -182,20 +182,82 @@ a.nav-link.mx-lg-2.dropdown-toggle.show {
 
 /* ---Welcome Part CSS Start--- */
 
-.background-pic{
-    
+.background-pic {
     background-image: url(../images/bannerhomeuia.jpg);
-    
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 0px -50px;
+    background-position: center center;
     margin-top: 90px;
+    height: 455px;
 }
 
 .welcome-title{
     font-weight: 700;
     color: #fff;
-    font-size: 40px;
+    font-size: 33px;
+    font-style: italic;
 }
 
+.container.\.wc-photo-color {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* .all-welcome-logo {
+    display: flex;
+}
+
+.wc-logo a {
+    padding: 10px;
+    background-color: #bbf002;
+    color: blue;
+    margin-left: 8px;
+    border-radius: 3px;
+    font-size: 50px;
+
+}
+
+.wc-logo{
+    transition: all 0.4s;
+    padding: 4px;
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+    border-radius: 50 ;
+}
+
+.all-socail-logo .wc-logo:hover{
+ transform: scale(1.5);
+ 
+} */
+
+.wc-logo-font{
+    font-size: 33px;
+}
+
+ul.wc-logo-link li a .wc-icons {
+    width: 41px;
+    height: 45px;
+    color: #249db6;
+}
+
+ul.wc-logo-link li {
+    list-style: none;
+}
+ul.wc-logo-link li a {
+    text-decoration: none;
+    
+}
+
+ul.wc-logo-link li .wc-logo-bg {
+    width: 150px;
+    height: 150px;
+    background-color: #bbf002;
+    border-radius: 50%;
+    display: inline-block;
+
+}
+ul.wc-logo-link li a span {
+    font-size: 15px;
+    color: #365fa0;
+}
 /* ---Welcome Part CSS End--- */
