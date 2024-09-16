@@ -269,3 +269,34 @@ a.nav-link.mx-lg-2.dropdown-toggle.show {
 
     /* Welcome link Icon Start */
 /* -----Welcome Part CSS End----- */
+
+/* -----News card part CSS start---- */
+.card-img-top{
+    width: 300px !important ;
+    height:200px !important ;
+}
+
+.margin-top{
+    margin-top: 200px;
+}
+.news-title{
+    color: #365fa0;
+    font-weight: 700;
+}
+.news-heading-border{
+    border-top: 4px solid #249db6;
+    border-radius: 0px !important;
+    
+
+}
+.news-photo-border{
+    border-radius: 0px !important;
+    border-color: none !important;
+    transform: scale(1.5s) !important;
+}
+.news-photo-border img:hover{
+    transform: scale(1.5s) !important;
+    background-color: #2a3240;
+}
+
+/* -----News card part CSS end---- */
