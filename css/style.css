@@ -180,7 +180,9 @@ a.nav-link.mx-lg-2.dropdown-toggle.show {
 
 /* -------Footer Part CSS End------- */
 
-/* ---Welcome Part CSS Start--- */
+/* -----Welcome Part CSS Start----- */
+
+   /* Background Image Start */
 
 .background-pic {
     background-image: url(../images/bannerhomeuia.jpg);
@@ -203,32 +205,26 @@ a.nav-link.mx-lg-2.dropdown-toggle.show {
     background-color: rgba(0, 0, 0, 0.3);
 }
 
+  /* Background Image End */
 
-.wc-logo-position{
-   
+   /* Welcome link Icon Start */
+
+.wc-icons-position{
     position: absolute;
     top: 470px;
 }
 
-.wc-logo-font{
-    font-size: 33px;
-}
-
-ul.wc-logo-link li a .wc-icons {
-    width: 41px;
+.wc-icons {
     height: 45px;
     color: #249db6;
 }
 
-ul.wc-logo-link li {
-    list-style: none;
-}
-ul.wc-logo-link li a {
+
+.wc-icons-title a {
     text-decoration: none;
-    
 }
 
-ul.wc-logo-link li .wc-logo-bg {
+.wc-icons-bg {
     width: 150px;
     height: 150px;
     background-color: #fff;
@@ -236,21 +232,21 @@ ul.wc-logo-link li .wc-logo-bg {
     display: inline-block;
     transition: all 0.3s ease-in-out;
 }
-ul.wc-logo-link li .wc-logo-bg:hover{
+.wc-icons-title a:hover{
     background-color: #249db6;
-   
 }
-ul.wc-logo-link li .wc-logo-bg:hover span{
+
+.wc-icons-title a:hover span {
     color: #fff;
-   
 }
-ul.wc-logo-link li .wc-logo-bg:hover .wc-icons{
+.wc-icons-title a:hover .wc-icons{
     color: #fff;
-   
 }
-ul.wc-logo-link li a span {
+.wc-icons-title a span {
     font-size: 15px;
     color: #365fa0;
     font-weight: 600;
 }
-/* ---Welcome Part CSS End--- */
+
+    /* Welcome link Icon Start */
+/* -----Welcome Part CSS End----- */
