@@ -201,8 +201,26 @@ a.nav-link.mx-lg-2.dropdown-toggle.show {
     font-style: italic;
 }
 
-.container.\.wc-photo-color {
+/* learn more button */
+.learn-button{
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 8px 20px;
+    /* border-radius: 50px; */
+    text-decoration: none;
+    transition: 0.3s background-color;
+}
+.learn-button:hover{
+    background-color:  #fff;
+    color:#365fa0 ;
+}
+.wc-photo-bg-color {
     background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 100%;
+
 }
 
   /* Background Image End */
