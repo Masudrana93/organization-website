@@ -298,6 +298,19 @@ a.nav-link.mx-lg-2.dropdown-toggle.show {
     border-radius: 0px !important;
     border-color: none !important;
     overflow: hidden;
+    position: relative;
+    
+}
+.news-photo-tag{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    height: 20px;
+    width: 80px;
+    background: #249db6;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 0px 3px 0px 0px;
     
 }
 .news-photo-border img{
