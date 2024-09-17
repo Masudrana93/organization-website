@@ -300,3 +300,36 @@ a.nav-link.mx-lg-2.dropdown-toggle.show {
 }
 
 /* -----News card part CSS end---- */
+
+/* -----social media link for leftbar CSS start---- */
+
+body .social-logo-leftbar{
+    position: fixed;
+    top: 50%;
+    left: 0;
+}
+
+.all-leftbar-socail-logo {
+    display: flex;
+    flex-direction: column;
+}
+
+.social-leftbar-logo a {
+    padding: 10px;
+    background-color: #bbf002;
+    color: blue;
+    border-radius: 3px;
+    margin-bottom: 8px !important;
+    border: 1px solid #249db6;
+    transition: all 0.4s;
+}
+.social-leftbar-logo a:hover{
+    background-color: #fff;
+    color: #365fa0;
+}
+
+.social-leftbar-logo{ 
+    padding: 10px;
+}
+
+/* ----Social media link for liftbar CSS end---- */
