@@ -321,6 +321,24 @@ a.nav-link.mx-lg-2.dropdown-toggle.show {
     background-color: #2a3240;
 }
 
+.notice-board{
+background-color: #249db6;
+width: 100%;
+transition:all 0.3s ;
+}
+.notice-board:hover {
+    background-color: #365fa0;
+}
+.notice-board .news-date{
+    color: #bbf002;
+    font-size: 13px;
+}
+.notice-board p{
+    color: #fff;
+    margin-top: 10px;
+}
+
+
 /* -----News card part CSS end---- */
 
 /* -----social media link for leftbar CSS start---- */
