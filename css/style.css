@@ -300,10 +300,9 @@ a.nav-link.mx-lg-2.dropdown-toggle.show {
     border-radius: 0px !important;
     border-color: none !important;
     overflow: hidden;
-    position: relative;
     
 }
-.news-photo-tag{
+/* .news-photo-tag{
     position: absolute;
     bottom: 0px;
     left: 0px;
@@ -313,26 +312,24 @@ a.nav-link.mx-lg-2.dropdown-toggle.show {
     color: #fff;
     font-size: 12px;
     border-radius: 0px 3px 0px 0px;
-    
-}
+   
+} */
 .news-photo-border img{
     transition: .8s !important;
 }
-.news-photo-border img:hover {
-    transform: scale(1.1) !important;
-    background-color: #2a3240;
-}
+
 /* News card part end  */
 
 /* notice board start */
 .notice-board{
-background-color: #249db6;
 width: 100%;
 transition:all 0.3s ;
 }
+
 .notice-board:hover{
     background-color: #365fa0;
 }
+
 .notice-board .news-date{
     color: #bbf002;
     font-size: 13px;
@@ -401,14 +398,34 @@ body .social-logo-leftbar{
 .pen-icon{
     position: absolute;
     bottom: 0px;
-    right: 0px;
+    right: -12px;
     height: auto;
     width: auto;
     background: #249db6;
     color: #fff;
-    font-size: 12px;
+    font-size: 16px;
     
     
 }
+.location-address{
+    color: #249db6;
+    font-size: 13px;
+}
+.seminar-heading{
+    color: #000000;
+}
 
 /* ----Events part CSS end---- */
+
+.ria-medam:hover .news-photo-border img {
+    transform: scale(1.5);
+}
+
+
+.bg-news{
+    background-color: #249db6;
+}
+
+.border-news{
+    border-bottom: 5px solid #249db6;
+}
