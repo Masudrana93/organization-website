@@ -286,7 +286,7 @@ a.nav-link.mx-lg-2.dropdown-toggle.show {
     top: 50%;
     border-bottom:5px 3px solid red;
 } */
-.news-title{
+.title-color{
     color: #365fa0;
     font-weight: 700;
 }
@@ -314,6 +314,19 @@ a.nav-link.mx-lg-2.dropdown-toggle.show {
     border-radius: 0px 3px 0px 0px;
    
 } */
+
+.ria-medam:hover .news-photo-border img {
+    transform: scale(1.5);
+}
+
+
+.bg-news{
+    background-color: #249db6;
+}
+
+.border-news{
+    border-bottom: 5px solid #249db6;
+}
 .news-photo-border img{
     transition: .8s !important;
 }
@@ -334,13 +347,11 @@ transition:all 0.3s ;
     color: #bbf002;
     font-size: 13px;
 }
-.notice-board p{
-    color: #fff;
-    margin-top: 10px;
-}
+
 /* notice board end */
 
 /* -----News card and notice board part CSS end---- */
+
 
 /* -----social media link for leftbar CSS start---- */
 
@@ -398,7 +409,7 @@ body .social-logo-leftbar{
 .pen-icon{
     position: absolute;
     bottom: 0px;
-    right: -12px;
+    right: 0px;
     height: auto;
     width: auto;
     background: #249db6;
@@ -407,7 +418,7 @@ body .social-logo-leftbar{
     
     
 }
-.location-address{
+.address{
     color: #249db6;
     font-size: 13px;
 }
@@ -417,15 +428,3 @@ body .social-logo-leftbar{
 
 /* ----Events part CSS end---- */
 
-.ria-medam:hover .news-photo-border img {
-    transform: scale(1.5);
-}
-
-
-.bg-news{
-    background-color: #249db6;
-}
-
-.border-news{
-    border-bottom: 5px solid #249db6;
-}
