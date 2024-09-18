@@ -270,7 +270,9 @@ a.nav-link.mx-lg-2.dropdown-toggle.show {
     /* Welcome link Icon Start */
 /* -----Welcome Part CSS End----- */
 
-/* -----News card part CSS start---- */
+/* -----News card and notice board part CSS start---- */
+
+/* News card part start  */
 .card-img-top{
     width: 300px !important ;
     height:200px !important ;
@@ -316,17 +318,19 @@ a.nav-link.mx-lg-2.dropdown-toggle.show {
 .news-photo-border img{
     transition: .8s !important;
 }
-.news-photo-border img:hover{
+.news-photo-border img:hover {
     transform: scale(1.1) !important;
     background-color: #2a3240;
 }
+/* News card part end  */
 
+/* notice board start */
 .notice-board{
 background-color: #249db6;
 width: 100%;
 transition:all 0.3s ;
 }
-.notice-board:hover {
+.notice-board:hover{
     background-color: #365fa0;
 }
 .notice-board .news-date{
@@ -337,9 +341,9 @@ transition:all 0.3s ;
     color: #fff;
     margin-top: 10px;
 }
+/* notice board end */
 
-
-/* -----News card part CSS end---- */
+/* -----News card and notice board part CSS end---- */
 
 /* -----social media link for leftbar CSS start---- */
 
@@ -373,3 +377,38 @@ body .social-logo-leftbar{
 }
 
 /* ----Social media link for liftbar CSS end---- */
+
+/* ----Events part CSS start---- */
+
+.event-photo{
+    position: relative;
+}
+.event-photo-tag{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: auto;
+    width: auto;
+    background: #249db6;
+    color: #fff;
+    font-size: 12px;
+    
+    
+}
+.pen-icon-position{
+    position: relative;
+}
+.pen-icon{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    height: auto;
+    width: auto;
+    background: #249db6;
+    color: #fff;
+    font-size: 12px;
+    
+    
+}
+
+/* ----Events part CSS end---- */
