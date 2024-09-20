@@ -272,6 +272,16 @@ a.nav-link.mx-lg-2.dropdown-toggle.show {
 
 /* -----News card and notice board part CSS start---- */
 
+.bg-body-color{
+    background-color: #ecedf2;
+}
+.bg-body-color-angle{
+    width: 100%;
+    height: 175px;
+    background: #ffffff;
+    background: linear-gradient(-5deg, #ffffff 0%, #ffffff 50%, #ecedf2 51%, #ecedf2 100%); 
+}
+
 /* News card part start  */
 .card-img-top{
     width: 300px !important ;
