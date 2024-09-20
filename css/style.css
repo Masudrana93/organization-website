@@ -5,6 +5,10 @@
     font-family: "Merriweather", serif;
 }
 
+.text-heading-color{
+    color: #365fa0;
+}
+
 /* ---Nav-bar CSS Star--- */
 
 /* Navbar */
@@ -438,3 +442,22 @@ body .social-logo-leftbar{
 
 /* ----Events part CSS end---- */
 
+/* -----Actions Section CSS Start----- */
+
+
+.plus-icon-position{
+    font-size: 24px ;
+    color: #fff;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    background: #365fa0;
+    border-radius: 50%;
+    position: absolute; 
+    bottom: -18px;
+    left: 50%;
+    margin-left: -18px;
+    
+}
+
+/* -----Actions Section CSS End----- */
