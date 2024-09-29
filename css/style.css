@@ -445,6 +445,18 @@ body .social-logo-leftbar{
 /* -----Actions Section CSS Start----- */
 
 
+.action-card-tag{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: auto;
+    width: 100%;
+    background: #249db6;
+    color: #fff;
+    font-size: 12px;
+    
+    
+}
 .plus-icon-position{
     font-size: 24px ;
     color: #fff;
@@ -463,7 +475,7 @@ body .social-logo-leftbar{
 color: gray;
 }
 .col-md-3.col-12.bg-white.p-4.position-relative{
-    transition: all 0.3s;
+    transition: all 0.5s;
 }
 
 .col-md-3.col-12.bg-white.p-4.position-relative:hover {
@@ -476,3 +488,54 @@ color: gray;
 }
 
 /* -----Actions Section CSS End----- */
+.testimony-text-bg{
+    width: 460px;
+    padding-top: 70px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 40px;
+    background: #365fa0;
+    z-index: 66;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 40px;
+    height: 425px;
+}
+
+/* #section_temoignage .block_temoignage .block_quote {
+    width: 460px;
+    padding-top: 70px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 40px;
+    background: #365fa0;
+    z-index: 66;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 40px;
+}
+#section_temoignage .block_temoignage:after {
+    content: "";
+    position: absolute;
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    -moz-transform: scale(0.9999);
+    border-width: 0 164px 142px 0;
+    border-color: transparent #00a1b4 transparent transparent;
+    bottom: 0;
+    left: -13px;
+    z-index: 55;
+    padding-top: 40px;
+}
+#section_temoignage .block_temoignage:after {
+    clear: both;
+}
+#section_temoignage .block_temoignage:before, #section_temoignage .block_temoignage:after {
+    content: " ";
+    display: table;
+} */
