@@ -459,5 +459,20 @@ body .social-logo-leftbar{
     margin-left: -18px;
     
 }
+.text-sub-heading-color{
+color: gray;
+}
+.col-md-3.col-12.bg-white.p-4.position-relative{
+    transition: all 0.3s;
+}
+
+.col-md-3.col-12.bg-white.p-4.position-relative:hover {
+    box-shadow: 0 0 11px gray;
+    
+}
+.col-md-3.col-12.bg-white.p-4.position-relative:hover .plus-icon-position {
+    background: #249db6;
+    transform: scale(1.2);
+}
 
 /* -----Actions Section CSS End----- */
