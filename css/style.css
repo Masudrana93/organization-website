@@ -488,20 +488,54 @@ color: gray;
 }
 
 /* -----Actions Section CSS End----- */
-.testimony-text-bg{
-    width: 460px;
-    padding-top: 70px;
-    padding-left: 80px;
-    padding-right: 80px;
-    padding-bottom: 40px;
-    background: #365fa0;
-    z-index: 66;
-    position: absolute;
-    top: 0;
-    left: 0;
-    margin-top: 40px;
-    height: 425px;
+
+/* ------Testimony Section CSS Start----- */
+
+.testimony-position{
+    margin-top:40px ;
 }
+.testimony-text-bg{
+   width:460px ;
+   height: 425px;
+   background: #365fa0;
+   padding:50px ;
+   position: absolute;
+   top: -40px;
+    left: 0px;
+   
+
+}
+.photo-title {
+    max-width: 300px;
+    background: #fff;
+    position: absolute;
+    padding: 20px;
+    font-size: 14px;
+    border-left: 5px solid #bbf002;
+    right: 30px;
+    bottom: 30px;
+}
+.caption-heading{
+    font-weight: 700;
+    color: #365fa0;
+
+}
+
+/* .triangle:before{
+    position: relative;
+}
+ .triangle:after {
+    border-color: red;
+    position: absolute;
+    background: red;
+    border-width: 0 0 40px 460px;
+    width: 0;
+    height: 0;
+    content: '';
+    border-style: solid;
+    left: 0;
+    top: -40px;
+ } */
 
 /* #section_temoignage .block_temoignage .block_quote {
     width: 460px;
