@@ -521,4 +521,20 @@ color: gray;
 
 }
 
+.triangle:before{
+    position: relative;
+}
+ .triangle-top:after {
+    border-color: red;
+    position: absolute;
+    background: red;
+    border-width: 0 0 40px 460px;
+    width: 0;
+    height: 0;
+    content: '';
+    border-style: solid;
+    left: 0;
+    top: -40px;
+ }
+
 /* ------Testimony Section CSS End----- */
