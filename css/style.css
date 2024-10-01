@@ -585,6 +585,36 @@ color: gray;
     background-color:  #365fa0;
 }
 
+.arrow-icon {
+    width: 70px;
+    height: 70px;
+    background: #249db6;
+    border-radius: 50%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 20px;
+}
+
+.arrow-icon.icon-1 {
+    position: absolute;
+    right: -35px;
+    top: 40%;
+}
+.arrow-icon.icon-1:hover{
+    background-color:  #365fa0;
+
+}
+.arrow-icon.icon-2 {
+    position: absolute;
+    left: -35px;
+    top: 40%;
+}
+.arrow-icon.icon-2:hover{
+    background-color:  #365fa0;
+
+}
 /* join button CSS start  */
 
 .join-button {
