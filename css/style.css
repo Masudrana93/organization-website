@@ -279,11 +279,20 @@ a.nav-link.mx-lg-2.dropdown-toggle.show {
 .bg-body-color{
     background-color: #ecedf2;
 }
-.bg-body-color-angle{
-    width: 100%;
+.bg-body-color-angle-bottom{
+
+    width: 0;
+    height: 0;
+    border-top: 0px solid transparent;
+    border-left: 460px solid red;
+    border-bottom: 40px solid transparent;
+    position: absolute;
+    left: 0;
+    bottom: -40px;
+    /* width: 100%;
     height: 175px;
     background: #ffffff;
-    background: linear-gradient(-5deg, #ffffff 0%, #ffffff 50%, #ecedf2 51%, #ecedf2 100%); 
+    background: linear-gradient(-5deg, #ffffff 0%, #ffffff 50%, #ecedf2 51%, #ecedf2 100%);  */
 }
 
 /* News card part start  */
@@ -524,19 +533,19 @@ color: gray;
  .triangle-top{
     width: 0;
     height: 0;
-    border-top: 0px solid transparent;
-    border-left: 460px solid #249db6;
-    border-bottom: 40px solid transparent;
+    border-top: 40px solid transparent;
+    border-right: 460px solid #365fa0;
+    border-bottom: 10px solid transparent;
     position: absolute;
-    left: 0;
-    bottom: -40px;
+    right: 0;
+    top: -40px;
  }
 
 
  .triangle-bottom {
     width: 0;
     height: 0;
-    border-top: 0px solid transparent;
+    border-top: 10px solid transparent;
     border-left: 460px solid #365fa0;
     border-bottom: 40px solid transparent;
     position: absolute;
