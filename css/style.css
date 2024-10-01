@@ -521,21 +521,40 @@ color: gray;
 
 }
 
-.triangle:before{
-    position: relative;
-}
- .triangle-top:after {
-    border-color: red;
-    position: absolute;
-    background: red;
-    border-width: 0 0 40px 460px;
+ .triangle-top{
     width: 0;
     height: 0;
-    content: '';
-    border-style: solid;
+    border-top: 0px solid transparent;
+    border-left: 460px solid #249db6;
+    border-bottom: 40px solid transparent;
+    position: absolute;
     left: 0;
-    top: -40px;
+    bottom: -40px;
  }
+
+
+ .triangle-bottom {
+    width: 0;
+    height: 0;
+    border-top: 0px solid transparent;
+    border-left: 460px solid #365fa0;
+    border-bottom: 40px solid transparent;
+    position: absolute;
+    left: 0;
+    bottom: -40px;
+}
+
+.triangle-left {
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-right: 224px solid #bbf002;
+    border-bottom: 125px solid transparent;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
 
 /* ------Testimony Section CSS End----- */
 
@@ -601,6 +620,7 @@ color: gray;
     position: absolute;
     right: -35px;
     top: 40%;
+    transition: all 0.3s ease-in-out;
 }
 .arrow-icon.icon-1:hover{
     background-color:  #365fa0;
@@ -610,6 +630,7 @@ color: gray;
     position: absolute;
     left: -35px;
     top: 40%;
+    transition: all 0.3s ease-in-out;
 }
 .arrow-icon.icon-2:hover{
     background-color:  #365fa0;
