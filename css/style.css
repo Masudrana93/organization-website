@@ -538,3 +538,82 @@ color: gray;
  }
 
 /* ------Testimony Section CSS End----- */
+
+/* ------owl-carousel-1 css Start------  */
+
+/* body{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+} */
+
+.wrapper{
+    width: 100%;
+
+}
+
+.wrapper .carousel {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 30px;
+
+}
+
+.carousel .card{
+    /* background: red; */
+    line-height: 250px;
+    text-align: center;
+    color: #fff;
+    font-size: 90px;
+    font-weight: 600;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rbga (0 0 0 0.2);
+}
+
+.carousel .card-1{
+    background: red;
+}
+
+.carousel .card-2{
+    background: green;
+}
+
+.carousel .card-3{
+    background: yellow;
+}
+
+.carousel .card-4{
+    background: blue;
+}
+
+.carousel .card-5{
+    background: pink;
+}
+
+/* join button CSS start  */
+
+.join-button {
+    
+    text-decoration: none;
+    transition: 0.3s background-color;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    background-color:  #365fa0;
+    padding: 8px 20px;
+    height: 62px;
+    width: 220px;
+    
+}
+.join-button:hover{
+    background-color:  #249db6;
+    
+}
+
+
+/* join button CSS end  */
+
+
+
+/*----- owl-carousel-1 css End ----- */
