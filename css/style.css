@@ -496,6 +496,10 @@ color: gray;
     background: #249db6;
     transform: scale(1.2);
 }
+.transition-actions {
+    transition: all 0.5s ease-in-out;
+}
+
 
 /* -----Actions Section CSS End----- */
 
@@ -676,3 +680,24 @@ color: gray;
 .transition-actions {
     transition: all 0.5s ease-in-out;
 }
+
+/* ------about us section one css start-----  */
+
+.about-back-img{
+    background-image: url(../images/about-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin-top: 90px;
+    height: 455px;
+    position: relative;
+}
+
+.about-position {
+    position: absolute;
+    top: 50%;
+    border-top:4px solid #365fa0;
+}
+
+
+/* ------about us section one css end-----  */
