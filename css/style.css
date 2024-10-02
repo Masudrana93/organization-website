@@ -81,6 +81,7 @@ a.nav-link.mx-lg-2.active:hover {
     border-top: 4px solid #249db6;
     border-bottom: 4px solid #249db6;
     padding: 5px;
+    
 }
 a.nav-link.mx-lg-2.dropdown-toggle.show {
     color: #249db6;
@@ -670,3 +671,8 @@ color: gray;
 
 
 /*----- owl-carousel-1 css End ----- */
+
+
+.transition-actions {
+    transition: all 0.5s ease-in-out;
+}
