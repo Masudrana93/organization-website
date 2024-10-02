@@ -690,7 +690,7 @@ color: gray;
     background-position: center center;
     margin-top: 90px;
     height: 455px;
-    position: relative;
+    /* position: relative; */
 }
 
 .about-position {
