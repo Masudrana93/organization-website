@@ -8,7 +8,9 @@
 .text-heading-color{
     color: #365fa0;
 }
-
+.back-color{
+background-color: #249db6;
+}
 /* ---Nav-bar CSS Star--- */
 
 /* Navbar */
@@ -684,18 +686,17 @@ color: gray;
 /* ----------about us section one css start---------  */
 
 .about-back-img{
-    background-image: url(../images/about-1.png);
+    /* background-image: url(../images/about-1.png); */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     margin-top: 90px;
-    height: 455px;
+    /* height: 455px; */
     /* position: relative; */
 }
 
 .about-position {
-    position: absolute;
-    top: 235px;
+    /* top: 235px; */
     border-top:4px solid #365fa0;
     padding: 80px 100px;
 }
@@ -727,21 +728,24 @@ color: gray;
 }
 /* --print and share icon css end-- */
 
+/* --content menu start -- */
+
 .tab-content-menu ul li{
     width: 100%;
     height: auto;
     background: #ecedf2;
-    padding: 13px 17px;
     transition: all 0.5s ease-in-out;
 }
 .tab-content-menu ul li a {
     font-size: 16px;
     text-decoration: none;
     color:black;
+    padding: 13px 17px;
+    display: block;
 }
-.tab-content-menu ul li:hover {
-    background: #249db6;
-    color: #fff;
+.tab-content-menu ul li a:hover {
+    color: white;
+    background: red;
 }
 
 .tab-content-menu ul{
@@ -749,10 +753,13 @@ color: gray;
 }
 .tab-content-menu {
     position: fixed;
-   left:200px;
+    left:200px;
     top: 568px;
     
 }
+/* --content menu end -- */
 
 /* ---------about us section one css end--------------  */
+
+
 
