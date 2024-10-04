@@ -697,52 +697,57 @@ color: gray;
     position: absolute;
     top: 235px;
     border-top:4px solid #365fa0;
+    padding: 80px 100px;
 }
 
 /* --print and share icon css start-- */
-.col-md-2.col-12.icon-bar ul {
+.icon-bar ul {
     list-style: none;
 }
-.col-md-2.col-12.icon-bar {
+.icon-bar {
     position: absolute;
-    right: 44px;
+    right: 99px;
     top: 235px;
 }
-.col-md-2.col-12.icon-bar ul li a {
+.icon-bar ul li a {
     font-size: 20px;
     color: #fff;
    
 
 }
-.col-md-2.col-12.icon-bar ul li {
+.icon-bar ul li {
     width: 50px;
     height: 50px;
     background: #365fa0;
     padding: 10px;
     transition: all 0.5s ease-in-out;
 }
-.col-md-2.col-12.icon-bar ul li:hover {
+.icon-bar ul li:hover {
     background: #249db6;
 }
 /* --print and share icon css end-- */
 
-.col-md-2.col-12.tab-content-menu ul li{
-    width: 150px;
-    height: 50px;
+.tab-content-menu ul li{
+    width: 100%;
+    height: auto;
     background: #ecedf2;
     padding: 13px 17px;
-    /* border:1px solid gray; */
 }
-.col-md-2.col-12.tab-content-menu ul li a {
-    font-size: 15px;
+.tab-content-menu ul li a {
+    font-size: 16px;
 
     text-decoration: none;
     color:black;
     
 
 }
-.col-md-2.col-12.tab-content-menu ul{
+.tab-content-menu ul{
     list-style: none;
+}
+.tab-content-menu {
+    position: absolute;
+    right: 270px;
+    top: 25px;
 }
 
 /* ---------about us section one css end--------------  */
