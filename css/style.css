@@ -798,12 +798,27 @@ ul.share-list li a{
 
 /* ----------Members Directory CSS Start---------- */
 
+/* search-bar CSS Start */
 .border-radius{
     border-radius: 0 !important;
 }
 .search-size{
     width: 600px;
 }
+/* search-bar CSS End */
+
+/* Member-card CSS Start  */
+.member-card{
+    /* float: right; */
+}
+
+.member-card-photo img {
+    border-radius: 50%;
+    overflow: hidden;
+    
+}
+
+/* Member-card CSS Start  */
 
 /* ----------Members Directory CSS End---------- */
 
