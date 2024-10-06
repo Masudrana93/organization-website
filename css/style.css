@@ -843,7 +843,16 @@ ul.share-list li a{
     background: #365fa0;
 }
 
-/* Member-card CSS Start  */
+/* Member-card CSS End  */
+
+/* member one CSS start  */
+.member-one-photo img{
+    width: 130px;
+    height: 130px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+/* member one CSS end  */
 
 /* ----------Members Directory CSS End---------- */
 
