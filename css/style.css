@@ -811,31 +811,25 @@ ul.share-list li a{
 /* search-bar CSS End */
 
 /* Member-card CSS Start  */
-
-
-/* .member-card-photo img {
-    border-radius: 50%;
-    overflow: hidden;
-    
-    
-} */
-
+.member-card{
+    background: #ecedf2;
+}
 
 .member-card-photo {
     width: 130PX;
     height: 130px;
     overflow: hidden;
     border-radius: 50%;
-    background-color: #ecedf8;
+    background-color: #D9DAE1;
 }
-
-
+.member-card-photo a img{
+    width: 130px;
+    height: 130px;
+}
 
 .member-card:hover .member-card-photo a img{
     transform: scale(1.125);
 }
-
-
 
 .card-icon{
     bottom: 6px;
