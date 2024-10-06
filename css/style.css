@@ -17,6 +17,9 @@ background-color: #249db6;
 .nav-margin{
     margin-top: 90px !important;
 }
+.transition{
+    transition: all 0.5s ease-in-out;
+}
 /* Some important css end */
 
 /* ---Nav-bar CSS Star--- */
@@ -810,15 +813,29 @@ ul.share-list li a{
 /* Member-card CSS Start  */
 
 
-.member-card-photo img {
+/* .member-card-photo img {
     border-radius: 50%;
     overflow: hidden;
     
     
+} */
+
+
+.member-card-photo {
+    width: 130PX;
+    height: 130px;
+    overflow: hidden;
+    border-radius: 50%;
+    background-color: #ecedf8;
 }
+
+
+
 .member-card:hover .member-card-photo a img{
-    transform: scale(0.5s);
-} 
+    transform: scale(1.125);
+}
+
+
 
 .card-icon{
     bottom: 6px;
@@ -826,7 +843,7 @@ ul.share-list li a{
 }
 .card-icon a{
     background: #249db6;
-    transition: all 0.3s ease-in-out;
+    
 }
 .card-icon a:hover{
     background: #365fa0;
