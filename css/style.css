@@ -808,14 +808,28 @@ ul.share-list li a{
 /* search-bar CSS End */
 
 /* Member-card CSS Start  */
-.member-card{
-    /* float: right; */
-}
+
 
 .member-card-photo img {
     border-radius: 50%;
     overflow: hidden;
     
+    
+}
+.member-card:hover .member-card-photo a img{
+    transform: scale(0.5s);
+} 
+
+.card-icon{
+    bottom: 6px;
+    right: 0;
+}
+.card-icon a{
+    background: #249db6;
+    transition: all 0.3s ease-in-out;
+}
+.card-icon a:hover{
+    background: #365fa0;
 }
 
 /* Member-card CSS Start  */
