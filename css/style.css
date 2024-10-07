@@ -4,7 +4,7 @@
     box-sizing: border-box;
     font-family: "Merriweather", serif;
 }
-/* Some important css start */
+/* ************ Some important css start******** */
 .text-heading-color{
     color: #365fa0;
 }
@@ -27,7 +27,10 @@ background-color: #249db6;
 .bg-body-color{
     background-color: #ecedf2;
 }
-/* Some important css end */
+.text-font{
+    font-family: sans-serif;
+}
+/* ************ Some important css end ********** */
 
 /* ---Nav-bar CSS Star--- */
 
@@ -889,7 +892,13 @@ ul.share-list li a{
     background: #249db6;
 }
 
-
+.col-12.present-detail h5 {
+    font-family: sans-serif;
+    line-height: 30px;
+    display: flex;
+    text-align: justify;
+    margin-bottom: 25px;
+}
 /* Top banner section css end */
 
 /* ----------Executive Committee CSS End---------- */
