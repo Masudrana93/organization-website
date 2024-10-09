@@ -902,3 +902,29 @@ ul.share-list li a{
 /* Top banner section css end */
 
 /* ----------Executive Committee CSS End---------- */
+
+/* -----------Presidents Card CSS Start------  */
+
+.ps-card{
+    background: #ecedf2;
+}
+.ps-card-photo{
+    width: 160px;
+    height: 160px;
+    overflow: hidden;
+    border-radius: 50%;
+    background-color: #D9DAE1;
+}
+
+.ps-card-photo a img{
+    width: 160px;
+    height: 160px;
+}
+
+.ps-card:hover .ps-card-photo a img{
+    transform: scale(1.125);
+}
+
+/* -----------Presidents Card CSS End------  */
+
+
