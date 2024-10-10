@@ -21,7 +21,7 @@ background-color: #249db6;
     transition: all 0.5s ease-in-out;
 }
 .text-color{
-    color: #3d3d3d;
+    color: #3d3d3d ;
 }
 
 .bg-body-color{
@@ -362,7 +362,7 @@ a.nav-link.mx-lg-2.dropdown-toggle.show {
 
 .ria-medam:hover .news-photo-border img {
     transform: scale(1.5);
-   
+  
 }
 
 
@@ -868,6 +868,25 @@ ul.share-list li a{
 }
 .member-one-card:hover .member-one-photo img{
     transform: scale(1.125);
+}
+.member-detail{
+    border-bottom: 3px solid #365fa0;
+}
+
+.list-style ul li {
+    list-style: none;
+}
+
+.card-icon-color{
+    top: 0px;
+    right: 0px;
+}
+.card-icon-color p{
+    background: #274573;
+    
+}
+.card-icon-color p:hover{
+    background: #249db6;
 }
 /* member one CSS end  */
 
