@@ -450,6 +450,9 @@ body .social-logo-leftbar{
     transform: scale(1.1);
    
 }
+.border-line img{
+    border-bottom:4px solid #249db6;
+}
 
 
 .event-photo-tag{
