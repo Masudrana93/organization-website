@@ -986,3 +986,10 @@ ul.share-list li a{
     height: 400px;
 }
 /* -------Divisional Committee Css End--------  */
+
+/* -----gallery css Start---- */
+.photo-border{
+    border:3px solid #249db6;
+}
+
+/* -----gallery css end---- */
