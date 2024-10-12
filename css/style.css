@@ -437,6 +437,21 @@ body .social-logo-leftbar{
 .event-photo{
     position: relative;
 }
+.seminar-photo{
+    overflow:hidden
+}
+
+.seminar-photo img {
+    transition:all 0.3s ease-in-out;
+   
+}
+
+.event-photo:hover .seminar-photo img {
+    transform: scale(1.1);
+   
+}
+
+
 .event-photo-tag{
     position: absolute;
     top: 0px;
@@ -451,6 +466,8 @@ body .social-logo-leftbar{
 }
 .pen-icon-position{
     position: relative;
+    overflow: hidden;
+    
 }
 .pen-icon{
     position: absolute;
@@ -470,6 +487,13 @@ body .social-logo-leftbar{
 }
 .seminar-heading{
     color: #000000;
+}
+
+.pen-icon-position img{
+  transition: all 0.3s ease-in-out;
+}
+.pen-icon-position img:hover{
+    transform: scale(1.1);
 }
 
 /* ----Events part CSS end---- */
