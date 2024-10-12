@@ -467,6 +467,7 @@ body .social-logo-leftbar{
 .pen-icon-position{
     position: relative;
     overflow: hidden;
+ 
     
 }
 .pen-icon{
@@ -491,10 +492,17 @@ body .social-logo-leftbar{
 
 .pen-icon-position img{
   transition: all 0.3s ease-in-out;
+  
 }
 .pen-icon-position img:hover{
     transform: scale(1.1);
 }
+.event-date-address {
+    position: absolute;
+    bottom: 45px;
+    left: 50px;
+}
+
 
 /* ----Events part CSS end---- */
 
